@@ -16,8 +16,12 @@ public class TestCase01 extends BaseTest {
 	
 	@Test
 	public void sampleMethodForEnteringCredentials() {	
+		logger.info("Test Case 01 started");
 		homePageEvents.loginButtonClick();
+		logger.info("Login button clicked");
 		loginPageEvents.verifyIfLoginPageIsLoaded();
+		logger.info("Login page is loaded");
 		loginPageEvents.enterCredentials();
+		logger.info("Credentials entered");
 	}
 }

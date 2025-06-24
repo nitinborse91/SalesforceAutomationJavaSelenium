@@ -2,9 +2,9 @@ package pageObjects;
 
 public interface LoginPageElements {
 
-	String emailAddressField = "//input[@placeholder='Email']";
-	String passwordField = "//input[@placeholder='Password']";
+	String emailAddressField = "//input[@data-qa='login-email']";
+	String passwordField = "//input[@data-qa='login-password']";
 	
-	String loginText = "//div[@class='ui fluid large blue submit button']";
+	String loginLogo = "//div[@class='login-form']";
 	
 }

@@ -15,7 +15,7 @@ public class LoginPageEvents {
 	
 	public void verifyIfLoginPageIsLoaded() {
 		// Logic to verify if the login page is loaded
-		Assert.assertTrue(element.getWebElements("xpath", LoginPageElements.loginText).size() > 0, "Login page is not loaded, Element not found");
+		Assert.assertTrue(element.getWebElements("xpath", LoginPageElements.loginLogo).size() > 0, "Login page is not loaded, Element not found");
 	}
 	
 	
